@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pinko</title>
+    <!-- play cdn for tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              red: "#e5425b",
+              white: "#fff",
+              paleWhite: "#bdacaa",
+              black: "#000",
+              gray: "#808080",
+              hoverBlack: "#000000c2",
+              grayBlack: "#252224",
+              transparent: "hsla(0, 0%, 0%, 0.3)",
+            },
+
+            fontFamily: {
+              Montserrat: ["Montserrat", "sans-serif"],
+            },
+
+            backgroundImage: {
+              "hero-pattern": "url('assets/pinko-hero-bg_wrapper.jpg')",
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- normalized css -->
+    <link rel="stylesheet" href="./style/normalized.css" />
+    <!-- fontAwesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Customized css -->
+    <link rel="stylesheet" href="./style/customized.css" />
+  </head>
+  <body>
+    <footer class="footer-container bg-black">
+      <div class="w-full px-3 py-3 m-auto flex justify-center">
+        <p class="text-white">
+          Copyright © 2048
+          <span class="text-red underline">Company Name</span> - Credit:
+          <span class="text-red underline">HTML Templates</span>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

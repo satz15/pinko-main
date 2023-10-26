@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pinko</title>
+    <!-- play cdn for tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              red: "#e5425b",
+              white: "#fff",
+              paleWhite: "#bdacaa",
+              black: "#000",
+              gray: "#808080",
+              hoverBlack: "#000000c2",
+              grayBlack: "#252224",
+              transparent: "hsla(0, 0%, 0%, 0.3)",
+            },
+
+            fontFamily: {
+              Montserrat: ["Montserrat", "sans-serif"],
+            },
+
+            backgroundImage: {
+              "hero-pattern": "url('assets/pinko-hero-bg_wrapper.jpg')",
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- normalized css -->
+    <link rel="stylesheet" href="./style/normalized.css" />
+    <!-- fontAwesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Customized css -->
+    <link rel="stylesheet" href="./style/customized.css" />
+  </head>
+
+  <body class="bg-hero-pattern bg-top bg-center bg-no-repeat font-Montserrat">
+    <!--Contents needs to places here!-->
+    <div id="header-container"></div>
+
+    <!-- gallery -->
+    <main class="gallery-container w-[900px] px-3 m-auto h-[300px] py-[5rem]">
+      <div class="flex flex-col gap-6">
+        <p class="text-[34px] font-semibold leading-8 text-paleWhite">
+          Our Galleries
+        </p>
+        <p class="leading-7 text-[11.5px] text-paleWhite font-bold">
+          No leaven of the laughter of life to lay the bed with arrows. It is
+          the throat, the pain of the life of the god, to adorn the people, who
+          has done his homework before the lake. Let it be a great vestibule of
+          hatred of the eu. Maecenas ut ipsum pellentesque purus ullamcorper
+          fringilla. Validate
+          <span class="text-red underline">XHTML</span> and
+          <span class="text-red underline">CSS</span> .
+        </p>
+      </div>
+    </main>
+
+    <section class="gallery-body-container bg-grayBlack mt-[-11rem]">
+      <div class="w-[930px] px-3 m-auto mt-[8rem]">
+        <div class="flex flex-wrap gap-6 py-8">
+          <!-- first -->
+          <div class="flex flex-col mt-5 mb-5 gap-3 w-[30%]">
+            <div class="bg-black p-[4px]">
+              <img src="assets/gallery1.jpg" alt="" srcset="" />
+            </div>
+            <p class="text-paleWhite text-[14px]">
+              Sed convallis laoreet euismod. For the arch of the bow, the sad or
+              the mattis as, porta and now.
+            </p>
+            <div>
+              <button
+                class="w-[100px] bg-hoverBlack text-paleWhite rounded-md py-2 px-2"
+              >
+                View
+              </button>
+              <button
+                class="w-[100px] bg-hoverBlack text-paleWhite rounded-md py-2 px-2"
+              >
+                Detail
+              </button>
+            </div>
+          </div>
+          <!-- second -->
+          <div class="flex flex-col mt-5 mb-5 gap-3 w-[30%]">
+            <div class="bg-black p-[4px]">
+              <img src="assets/gallery2.jpg" alt="" srcset="" />
+            </div>
+            <p class="text-paleWhite text-[14px]">
+              But in the urn neither the bow nor the bow, but the price of the
+              lake. Not just kids.
+            </p>
+            <div>
+              <button
+                class="w-[100px] bg-hoverBlack text-paleWhite rounded-md py-2 px-2"
+              >
+                View
+              </button>
+              <button
+                class="w-[100px] bg-hoverBlack text-paleWhite rounded-md py-2 px-2"
+              >
+                Detail
+              </button>
+            </div>
+          </div>
+          <!-- third -->
+          <div class="flex flex-col mt-5 mb-5 gap-3 w-[30%]">
+            <div class="bg-black p-[4px]">
+              <img src="assets/gallery3.jpg" alt="" srcset="" />
+            </div>
+            <p class="text-paleWhite text-[14px]">
+              There is no gate to the road to life. The two vehicles are warmed
+              up at the same time.
+            </p>
+            <div>
+              <button
+                class="w-[100px] bg-hoverBlack text-paleWhite rounded-md py-2 px-2"
+              >
+                View
+              </button>
+              <button
+                class="w-[100px] bg-hoverBlack text-paleWhite rounded-md py-2 px-2"
+              >
+                Detail
+              </button>
+            </div>
+          </div>
+          <!-- fourth -->
+          <div class="flex flex-col mt-5 mb-5 gap-3 w-[30%]">
+            <div class="bg-black p-[4px]">
+              <img src="assets/gallery4.jpg" alt="" srcset="" />
+            </div>
+            <p class="text-paleWhite text-[14px]">
+              Live life, elit not time vehicles, hate arc dignissim mauris, a
+              sem orci not just.
+            </p>
+            <div>
+              <button
+                class="w-[100px] bg-hoverBlack text-paleWhite rounded-md py-2 px-2"
+              >
+                View
+              </button>
+              <button
+                class="w-[100px] bg-hoverBlack text-paleWhite rounded-md py-2 px-2"
+              >
+                Detail
+              </button>
+            </div>
+          </div>
+          <!-- fifth -->
+          <div class="flex flex-col mt-5 mb-5 gap-3 w-[30%]">
+            <div class="bg-black p-[4px]">
+              <img src="assets/gallery5.jpg" alt="" srcset="" />
+            </div>
+            <p class="text-paleWhite text-[14px]">
+              Until one mass at the bed of poison is flattered, let it be cold
+              and hot. It is not a matter of concern.
+            </p>
+            <div>
+              <button
+                class="w-[100px] bg-hoverBlack text-paleWhite rounded-md py-2 px-2"
+              >
+                View
+              </button>
+              <button
+                class="w-[100px] bg-hoverBlack text-paleWhite rounded-md py-2 px-2"
+              >
+                Detail
+              </button>
+            </div>
+          </div>
+          <!-- sixth -->
+          <div class="flex flex-col mt-5 mb-5 gap-3 w-[30%]">
+            <div class="bg-black p-[4px]">
+              <img src="assets/gallery6.jpg" alt="" srcset="" />
+            </div>
+            <p class="text-paleWhite text-[14px]">
+              But now he has just finished, in the author's fear. Even if the
+              clinical life of the patient is laoreet and mauris.
+            </p>
+            <div>
+              <button
+                class="w-[100px] bg-hoverBlack text-paleWhite rounded-md py-2 px-2"
+              >
+                View
+              </button>
+              <button
+                class="w-[100px] bg-hoverBlack text-paleWhite rounded-md py-2 px-2"
+              >
+                Detail
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="footer-container"></div>
+
+    <!-- navbar extract -->
+    <script>
+      // Fetch and insert the common header
+      fetch("navbar.html")
+        .then((response) => response.text())
+        .then((html) => {
+          document.getElementById("header-container").innerHTML = html;
+          // Add JavaScript for highlighting the active link here if needed
+        });
+    </script>
+
+    <!-- footer extract -->
+    <script>
+      // Fetch and insert the common header
+      fetch("footer.html")
+        .then((response) => response.text())
+        .then((html) => {
+          document.getElementById("footer-container").innerHTML = html;
+          // Add JavaScript for highlighting the active link here if needed
+        });
+    </script>
+
+    <script src="./script/script.js"></script>
+  </body>
+</html>
